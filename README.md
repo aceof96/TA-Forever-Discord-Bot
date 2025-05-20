@@ -7,59 +7,108 @@ This bot tracks for new games played by TAF players addeand to the bots list and
 
 ## 📋 Features
 
-- Monitors TA-Forever API for new matches by tracked players
-- Posts detailed match results and map previews to Discord
-- Commands to dynamically add or remove users from tracking
+- ⏱ Real-time monitoring of TA-Forever games
+- 🧠 Detects wins/losses, maps, and player names
+- 🖼 Posts map preview image and game details
+- 💬 Commands to manage tracked users
 
 ---
 
 ## 🚀 Setup Instructions
 
-### 1. Clone this repository
+### 1. Clone the repository
 
-
+```bash
 git clone https://github.com/your-username/TA-Forever-Discord-Bot.git
 cd TA-Forever-Discord-Bot
-## 🔧 Setup
+```
 
-1. Clone or download this repo.
-2. Create a virtual environment: python -m venv venv
-3. Activate it: ```bash .\venv\Scripts\Activate ```bash
-4. Install dependencies: pip install -r requirements.txt
-5.  Create a .env file
-In the root directory, add the following environment variables:
-     <br/>DISCORD_TOKEN="your_discord_bot_token"
-     <br/>DISCORD_CHANNEL=123456789012345678  # Replace with your Discord channel ID (no quotes)
+### 2. Create and activate a virtual environment
 
-▶️ Running the Bot
-     <br/>To start the bot:
-     <br/>python main.py
-     💬 Bot Commands
-     Command	Description
-     $hello	Confirms bot is running
-     $AddUserbyName username	Add a player to track
-     $DelUserbyName username	Remove a player from tracking
-     🛠️ TODO
-      Improve stability and error handling
-          <br/>Enhance user input validation
-          <br/>Customize match result formatting
-          <br/>Add better logging and debugging tools
-
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
-🙏 Acknowledgments
-TA-Forever https://www.taforever.com/
-discord.py https://discordpy.readthedocs.io/en/stable/
-   ```bash
-   python -m venv venv
-
-launch the bot with python main.py
-<br/>  To confirm the bot is running you can type $hello into the chat and the bot should reply with Hello!
-<br/>  Type $AddUserbyName ExampleUsername into chat in order to add a uuser to track
-<br/>  Type $DelUserbyName ExampleUsername into the chat to remove a player from tracking
-
-### TODO:
-<br/>  Stabilty updates
-<br/>  Input satation updates
-<br/>  Adjust the output format of games into discord pending communty input
 ```bash
+python -m venv venv
+```
+
+#### On Windows PowerShell:
+```powershell
+.\venv\Scripts\Activate
+```
+
+#### On macOS/Linux:
+```bash
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Create a `.env` file in the root directory
+
+```env
+DISCORD_TOKEN="your_discord_bot_token"
+DISCORD_CHANNEL=123456789012345678
+```
+
+> 📝 Replace the values with your actual bot token and target Discord channel ID.
+
+---
+
+## ▶️ Running the Bot
+
+After completing setup, launch the bot with:
+
+```bash
+python main.py
+```
+
+---
+
+## 💬 Bot Commands
+
+| Command                      | Function                                 |
+|-----------------------------|------------------------------------------|
+| `$hello`                    | Confirms the bot is online               |
+| `$AddUserbyName <username>` | Adds a player to be tracked              |
+| `$DelUserbyName <username>` | Removes a tracked player                 |
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── main.py
+├── GameList.py
+├── Users.py
+├── requirements.txt
+├── .env
+└── README.md
+```
+
+---
+
+## 🛠 TODO
+
+- [ ] Improve error handling and bot stability
+- [ ] Enhance user input validation
+- [ ] Support multi-game posting and formatting
+- [ ] Add logging and better debugging support
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or pull request with proposed changes, ideas, or enhancements.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## 🙏 Acknowledgments
