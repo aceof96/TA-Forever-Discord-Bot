@@ -15,9 +15,9 @@ This bot tracks for new games played by TAF players addeand to the bots list and
    python -m venv venv
 
 launch the bot with python main.py
-  To confirm the bot is running you can type $hello into the chat and the bot should reply with Hello!
-  Type $AddUserbyName ExampleUsername into chat in order to add a uuser to track
-  Type $DelUserbyName ExampleUsername into the chat to remove a player from tracking
+<br/>  To confirm the bot is running you can type $hello into the chat and the bot should reply with Hello!
+<br/>  Type $AddUserbyName ExampleUsername into chat in order to add a uuser to track
+<br/>  Type $DelUserbyName ExampleUsername into the chat to remove a player from tracking
 
 ### TODO:
 <br/>  Stabilty updates
