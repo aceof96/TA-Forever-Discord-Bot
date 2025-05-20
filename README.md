@@ -24,7 +24,7 @@ cd TA-Forever-Discord-Bot
 
 1. Clone or download this repo.
 2. Create a virtual environment: python -m venv venv
-3. Activate it: ```bash.\venv\Scripts\Activate```bash
+3. Activate it: ```bash .\venv\Scripts\Activate ```bash
 4. Install dependencies: pip install -r requirements.txt
 5.  Create a .env file
 In the root directory, add the following environment variables:
