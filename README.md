@@ -77,15 +77,26 @@ python main.py
 ---
 
 ## 📁 Project Structure
+Should look something similar to below
 
 ```
 .
-├── main.py
-├── GameList.py
-├── Users.py
-├── requirements.txt
-├── .env
-└── README.md
+├── .env                     # Contains your Discord token and channel ID
+├── GameList.pickle          # Serialized data for tracked games
+├── GameList.py              # Logic for handling game data
+├── Hady_LaughHOHO.ogg       # Sound file (used in bot events?)
+├── main.py                  # Entry point for the bot
+├── map.png                  # Sample or default map image
+├── peewee.png               # Sample image
+├── pyvenv.cfg               # Virtual environment config file
+├── README.md                # Project documentation
+├── requirements.txt         # List of Python dependencies
+├── test.py                  # Test or debugging script
+├── UserList.pickle          # Serialized list of tracked users
+├── UserList.text            # legacy version of tracked users
+├── Users.py                 # Logic for managing users
+├── __pycache__/             # Compiled Python bytecode
+└── venv/                    # Virtual environment (not committed to GitHub)
 ```
 
 ---
@@ -105,10 +116,8 @@ Contributions are welcome! Please open an issue or pull request with proposed ch
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 ## 🙏 Acknowledgments
+## 🙏 Acknowledgments
+
+- [TA-Forever](https://www.taforever.com/)
+- [discord.py](https://discordpy.readthedocs.io/)
