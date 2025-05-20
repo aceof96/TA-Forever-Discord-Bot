@@ -20,6 +20,6 @@ launch the bot with python main.py
   Type $DelUserbyName ExampleUsername into the chat to remove a player from tracking
 
 ### TODO:
-< br / >  Stabilty updates
-< br / >  Input satation updates
-< br / >  Adjust the output format of games into discord pending communty input
+<br/>  Stabilty updates
+<br/>  Input satation updates
+<br/>  Adjust the output format of games into discord pending communty input
