@@ -1,5 +1,5 @@
 # 🎮 TA-Forever Discord Bot
-![TAF Logo]![image](https://github.com/user-attachments/assets/b6c512fd-9fa3-4297-860a-f11f74189c31)
+[image](https://github.com/user-attachments/assets/b6c512fd-9fa3-4297-860a-f11f74189c31)
 
 This bot tracks for new games played by TAF players addeand to the bots list and posts results to the inputed Discord channel.
 
@@ -67,7 +67,7 @@ python main.py
 ---
 
 ## 💬 Bot Commands
-
+By message on channel bot is linked to
 | Command                      | Function                                 |
 |-----------------------------|------------------------------------------|
 | `$hello`                    | Confirms the bot is online               |
